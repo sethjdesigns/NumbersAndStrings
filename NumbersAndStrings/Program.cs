@@ -77,6 +77,8 @@ namespace NumbersAndStrings
             Console.WriteLine(newShipSpeed);
 
             Console.ReadLine();
+
+
         }
     }
 }
