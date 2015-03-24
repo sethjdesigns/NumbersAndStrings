@@ -12,7 +12,7 @@ namespace NumbersAndStrings
         {
             int index = 10000;
 
-            int oneThird = index /3;
+            int oneThird = index / 3;
 
             int remainder = index % 3;
         }
