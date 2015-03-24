@@ -20,7 +20,7 @@ namespace NumbersAndStrings
             //for (int i = 0; i < 365; i++) 
             //{
             //    bankBalance += increment;
-                
+
             //}
 
             //Console.WriteLine("Your account balance after one year is {0:C2}.", bankBalance);
@@ -47,7 +47,7 @@ namespace NumbersAndStrings
 
             ////find area of parcel
             //var area = width * height;
-            
+
             ////Calculate cost of square footage
             //var squareFootCost = (area * 5);
 
@@ -63,11 +63,21 @@ namespace NumbersAndStrings
             //Console.WriteLine(totalLandCost);
             //Console.ReadLine();
 
+
             /*
             Space Exploration
             */
+            
+            var shipSpeed = 10000.00;
+            var speedIncrement = shipSpeed * 0.05;
 
+            for (int i = 0; i < 10; i++)
+            {
+                shipSpeed += speedIncrement;
+            }
 
+            Console.WriteLine(shipSpeed);
+            Console.ReadLine(); 
         }
     }
 }
