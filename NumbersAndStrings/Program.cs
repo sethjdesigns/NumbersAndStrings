@@ -10,9 +10,11 @@ namespace NumbersAndStrings
     {
         static void Main(string[] args)
         {
-            int index = 0xff;
+            int index = 10000;
 
-            int bigIndex = index * 255;
+            int oneThird = index /3;
+
+            int remainder = index % 3;
         }
     }
 }
