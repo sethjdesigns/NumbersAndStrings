@@ -34,34 +34,40 @@ namespace NumbersAndStrings
             Land Cost Calculator
             */
 
-            int width;
-            int height;
+            //int width;
+            //int height;
 
-            //Get width of parcel
-            Console.WriteLine("Width of parcel:");
-            width = Convert.ToInt32(Console.ReadLine());
+            ////Get width of parcel
+            //Console.WriteLine("Width of parcel:");
+            //width = Convert.ToInt32(Console.ReadLine());
 
-            //get height of parcel
-            Console.WriteLine("height of parcel:");
-            height = Convert.ToInt32(Console.ReadLine());
+            ////get height of parcel
+            //Console.WriteLine("height of parcel:");
+            //height = Convert.ToInt32(Console.ReadLine());
 
-            //find area of parcel
-            var area = width * height;
+            ////find area of parcel
+            //var area = width * height;
             
-            //Calculate cost of square footage
-            var squareFootCost = (area * 5);
+            ////Calculate cost of square footage
+            //var squareFootCost = (area * 5);
 
-            //Get total Perimiter
-            var perimiterTotal = ((width + height) * 2);
+            ////Get total Perimiter
+            //var perimiterTotal = ((width + height) * 2);
 
-            //Get Perimiter Cost
-            var perimiterCost = (perimiterTotal * 0.75);
+            ////Get Perimiter Cost
+            //var perimiterCost = (perimiterTotal * 0.75);
 
-            //Show Total
+            ////Show Total
 
-            var totalLandCost = (squareFootCost + perimiterCost).ToString("C2");
-            Console.WriteLine(totalLandCost);
-            Console.ReadLine();
+            //var totalLandCost = (squareFootCost + perimiterCost).ToString("C2");
+            //Console.WriteLine(totalLandCost);
+            //Console.ReadLine();
+
+            /*
+            Space Exploration
+            */
+
+
         }
     }
 }
