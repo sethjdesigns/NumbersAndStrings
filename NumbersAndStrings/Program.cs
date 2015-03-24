@@ -63,17 +63,25 @@ namespace NumbersAndStrings
             Space Exploration
             */
 
-
             var shipSpeed = 10000.00;
             var speedIncrement = (shipSpeed * 0.05);
-            var newShipSpeed = shipSpeed + speedIncrement;            
+            var newShipSpeed = shipSpeed + speedIncrement;
 
-            for (int i = 0; i < 10; i++)
+            for (int j = 0; j < 120; j += 15)
             {
-                newShipSpeed = newShipSpeed * 1.05;
-                Console.WriteLine(newShipSpeed);
-            }            
+
+                for (int i = 0; i < 10; i++)
+                {
+                    newShipSpeed = newShipSpeed * 1.05;
+                }
+
+            }
+
+            Console.WriteLine(newShipSpeed);
+
             Console.ReadLine();
+
+
         }
     }
 }
