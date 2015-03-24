@@ -69,19 +69,14 @@ namespace NumbersAndStrings
 
             for (int j = 0; j < 120; j += 15)
             {
-
                 for (int i = 0; i < 10; i++)
                 {
                     newShipSpeed = newShipSpeed * 1.05;
                 }
-
             }
-
             Console.WriteLine(newShipSpeed);
 
             Console.ReadLine();
-
-
         }
     }
 }
