@@ -30,6 +30,7 @@ namespace NumbersAndStrings
 
             //Console.ReadLine();
 
+
             /*
             Land Cost Calculator
             */
@@ -45,17 +46,11 @@ namespace NumbersAndStrings
             //Console.WriteLine("height of parcel:");
             //height = Convert.ToInt32(Console.ReadLine());
 
-            ////find area of parcel
-            //var area = width * height;
-
             ////Calculate cost of square footage
-            //var squareFootCost = (area * 5);
+            //var squareFootCost = (width * height) * 5;
 
-            ////Get total Perimiter
-            //var perimiterTotal = ((width + height) * 2);
-
-            ////Get Perimiter Cost
-            //var perimiterCost = (perimiterTotal * 0.75);
+            ////Get total Perimiter 
+            //var perimiterCost = ((width + height) * 2) * 0.75;
 
             ////Show Total
 
@@ -67,17 +62,18 @@ namespace NumbersAndStrings
             /*
             Space Exploration
             */
-            
+
+
             var shipSpeed = 10000.00;
-            var speedIncrement = shipSpeed * 0.05;
+            var speedIncrement = (shipSpeed * 0.05);
+            var newShipSpeed = shipSpeed + speedIncrement;            
 
             for (int i = 0; i < 10; i++)
             {
-                shipSpeed += speedIncrement;
-            }
-
-            Console.WriteLine(shipSpeed);
-            Console.ReadLine(); 
+                newShipSpeed = newShipSpeed * 1.05;
+                Console.WriteLine(newShipSpeed);
+            }            
+            Console.ReadLine();
         }
     }
 }
